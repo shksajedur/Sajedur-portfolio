@@ -1,0 +1,111 @@
+body{
+    background-color: #a2a8d3;
+} 
+h3{
+    color: white;
+    font-family: cursive;
+}
+h5{
+    color: white;
+    font-family: cursive;
+}
+p{
+    color: white;
+    font-family: cursive;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+.textname{
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    margin: 15px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.child1{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.profile{
+    filter: drop-shadow(5px 5px 5px #000000);
+    width: 227px;
+    height: 217px;
+    padding: 10px;
+}
+.biochild{
+    display: flex;
+    justify-content: space-between;
+}
+.biography{
+    padding-left: 70px;
+}
+.contact{
+    padding-left: 70px;
+    justify-content: end;
+}
+.details{
+    padding-left: 70px;
+    width: 500px;
+}
+.linklogo{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    background-color: beige;
+    
+}
+.logo1{
+    height: 30px;
+    width: 30px;
+}
+.logo2{
+    height: 30px;
+    width: 30px;
+}
+.logo3{
+    height: 30px;
+    width: 30px;
+}
+.contactslink{
+    display: flex;
+    margin-bottom: 20px;
+}
+.skills{
+    width: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 70px;
+}
+.htmllogo{
+    height: 35px;
+    width: 35px;
+}
+.csslogo{
+    height: 35px;
+    width: 40px;
+}
+.jslogo{
+    height: 35px;
+    width: 40px;
+}
+.gitlogo{
+    height: 35px;
+    width: 45px;
+}
+.myproject{
+    padding-left: 70px;
+}
